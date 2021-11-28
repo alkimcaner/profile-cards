@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    height: auto;
+    background-color: white;
+    color: black;
+    padding: 1.5rem;
+    gap: 1rem;
+    border-radius: 10%;
+    margin: 20px;
+    box-shadow: -5px 5px 5px 0px black;
+}
+
+.card img{
+    border-radius: 50%;
+    width: 50%;
+}
